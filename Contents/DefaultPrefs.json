@@ -1,0 +1,54 @@
+[
+  {
+        "id": "username",
+        "type": "text",
+        "label": "Username",
+        "default": ""
+    },
+    {
+        "id": "password",
+        "type": "text",
+        "label": "Password",
+        "default": "",
+        "option": "hidden"
+    },
+    {
+        "id": "search_hd",
+        "type": "bool",
+        "label": "Search HD only",
+        "default": "true",
+    },
+    {
+        "id": "search_adult",
+        "type": "bool",
+        "label": "Allow search adult",
+        "default": "false",
+    },
+    {
+        "id": "video_per_page",
+        "type": "enum",
+        "label": "Videos per page",
+        "values": ["20", "50", "100", "200"],
+        "default": "50",
+    },
+    {
+        "id": "audio_per_page",
+        "type": "enum",
+        "label": "Music per page",
+        "values": ["50", "100", "200", "500", "1000", "3000", "6000"],
+        "default": "50",
+    },
+    {
+        "id": "photos_per_page",
+        "type": "enum",
+        "label": "Photos per page",
+        "values": ["20", "50", "100", "200", "500", "1000"],
+        "default": "50",
+    },
+    {
+        "id": "use_request_instead_of_audio_api",
+        "type": "bool",
+        "label": "Use 'request' instead of audio api",
+        "default": "true"
+    }
+]
