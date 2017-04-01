@@ -195,7 +195,7 @@ def VideoList(uid, title, album_id=None, offset=0):
 
 
 @route(PREFIX_V + '/play')
-def VideoPlay(uid, vid):
+def VideoPlay(uid, vid, includeBandwidths=True):
 
     res = ApiRequest('video.get', {
         'owner_id': uid,
